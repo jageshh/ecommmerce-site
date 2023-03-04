@@ -1,0 +1,14 @@
+.anouse{
+background-color: blueviolet;
+display: flex;
+color: white;
+text-align: center;
+justify-content: center;
+height: 30px;
+}
+.cross{
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: white;
+}

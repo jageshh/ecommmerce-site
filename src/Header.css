@@ -1,0 +1,51 @@
+.header{
+
+    top: 0px;
+    max-height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(19, 25,33);
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white; 
+    flex-basis: 20%;
+}
+.cart{
+    height: 60px;
+    width: 80px;
+}
+.header-link{
+    display: flex;
+}
+.header-link ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.header-link ul li a{
+    text-decoration: none;
+    
+    color:white;
+}
+
+.header-link ul li a:hover{
+  color: darkgoldenrod;
+}
+.search-bar{
+    color: black;
+}
+.location{
+    width: 99px;
+    flex-basis: 25%;
+    color: white;
+}
+.select-item{
+    color: black;
+    margin: 2px;
+}

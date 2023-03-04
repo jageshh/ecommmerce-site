@@ -1,0 +1,29 @@
+.cart-item-list{
+    margin: 4px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    font-size: 20px;
+}
+.cart-item-list button{
+    font-weight: 700px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+   width: 99px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+   
+}
+.cart-item-list button:hover{
+    background-color: red;
+}
+.cart-item-list button:active{
+   transform: translateY(2px);
+}

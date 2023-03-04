@@ -1,0 +1,166 @@
+
+.top-header{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(19, 25,33);
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.amazon-log{
+color: white;
+flex-basis: 150px;
+}
+.amazon-log img{
+  width: 60%;
+  border-radius: 50%;
+  height: 50px;
+}
+.location{
+  color: white;
+  flex-basis: 250px;
+}
+.search-bar{
+  color: white;
+  flex-basis: 442px;
+  height: 40px;
+  width: 400px;
+  border: 1px solid rgb(243,168,71);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px ;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px ;
+}
+.btn-2{
+  height: 40px;
+  padding-left: 0px;
+  width: 40px;
+  background-color: rgb(243,168,71);
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px ;
+  color: white;
+}
+.language{
+  color: white;
+  flex-basis: 150px;
+  padding-left: 9px;
+}
+.acount-detail{
+  color: white;
+  flex-basis: 200px;
+}
+.cart-detail{
+  flex-basis: 200px;
+  color: white;
+}
+
+.small{
+  font-size: 8px;
+}
+.big{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* This is code for navbar */
+
+.navbar{
+  height: 30px;
+  color: white;
+  width: 100%;
+  background-color: rgb(35,47,62);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ 
+  
+}
+.navbar ul{
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 9px;
+}
+
+.navbar ul li{
+  display: inline-block;
+ 
+  text-decoration: none;
+  
+  list-style: none;
+  margin: 0px 20px;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+   
+   
+}
+.navbar ul li a:hover{
+ color: darkgoldenrod;
+}
+.home-div{
+  background-color: red;;
+  height: 1200px;
+  width: 100%;
+}
+
+/* css for CArd */
+.image-carausal{
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.product-container{
+padding: 0px 0px;
+width: 100%;
+display: flex;
+overflow-x: hidden;
+scroll-behavior: smooth;
+}
+.myCard{
+  width: 100%;
+  
+  height: 500px;
+  background-color: red;
+  color: white;
+  margin: 4px;
+}
+.pre-btn,.next-btn{
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0,0);
+}
+.next-btn{
+  right: 0px;
+ 
+}
+
+.pre-btn p,
+.next-btn p{
+  font-size: 50px;
+  background-color: rgba(0, 0, 0,0);
+  box-shadow: 0px 0px 9px 2px black;
+  border-radius: 9px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}

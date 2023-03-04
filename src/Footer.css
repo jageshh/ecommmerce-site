@@ -1,0 +1,72 @@
+.men-div{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(19, 25,33);
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 99px;
+}
+.get{
+flex-basis: 25%;
+text-align: left;
+font-size: 14px;
+}
+.get ol li{
+    list-style: none;
+    
+}
+.get ol li a{
+    text-decoration: none;
+    color: white;
+}
+.get ol li a:hover{
+    color: darkgoldenrod;
+}
+.connect{
+    flex-basis: 25%;
+    text-align: left;
+    font-size: 14px;
+}
+.connect ol li{
+    list-style: none;
+}
+.connect ol li a{
+    text-decoration: none;
+    color: white;
+}
+.connect ol li a:hover{
+    color: darkgoldenrod;
+}
+.money{
+    flex-basis: 25%;
+    text-align: left;
+    font-size: 14px;
+}
+.money ol li{
+    list-style: none;
+}
+.money ol li a{
+    text-decoration: none;
+    color: white;
+}
+.money ol li a:hover{
+    color: darkgoldenrod;
+}
+.help{
+    flex-basis: 25%;
+    text-align: left;
+    font-size: 14px;
+}
+.help ol li{
+    list-style: none;
+}
+.help ol li a{
+    text-decoration: none;
+    color: white;
+}
+.help ol li a:hover{
+    color: darkgoldenrod;
+}
